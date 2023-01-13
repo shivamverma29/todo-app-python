@@ -1,4 +1,8 @@
 from functions import get_todo, write_todo
+import time
+
+now = time.strftime("%b %d, %Y %H:%M:%S")
+print(now)
 
 while True:
     user_input = input("Enter add, show, edit, complete or exit : ")
